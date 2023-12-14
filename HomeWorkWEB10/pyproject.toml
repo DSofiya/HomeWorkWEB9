@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "homeworkweb9"
+name = "homeworkweb10"
 version = "0.1.0"
 description = ""
 authors = ["DSofiya <134394822+DSofiya@users.noreply.github.com>"]
@@ -7,10 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-scrapy = "^2.11.0"
-itemadapter = "^0.8.0"
-fastapi = "^0.104.1"
-uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+django = "^5.0"
+pymongo = "^4.6.1"
+mongoengine = "^0.27.0"
 
 
 [build-system]
